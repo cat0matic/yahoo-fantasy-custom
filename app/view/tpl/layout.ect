@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <title><?- @title ?></title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <? if @css: ?>
+      <? for css in @css: ?>
+    <link href="<?- css ?>" rel="stylesheet" type="text/css">
+      <? end ?>
+    <? end ?>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1><a href="/">Pick your NFL man</a></h1>
+        <h2>
+          | <a href="/login">Log in</a>
+          | <a href="/logout">Log out</a>
+          | <a href="/league">League</a>
+          | <a href="/teams">Teams</a>
+          | <a href="/user">User</a>
+        |</h2>
+      </div>
+      <? content ?>
+      <? #include 'footer' ?>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
+    <? if @js: ?>
+      <? for js in @js: ?>
+    <script src="<?- js ?>" type="text/javascript"></script>
+      <? end ?>
+    <? end ?>
+  </body>
+</html>

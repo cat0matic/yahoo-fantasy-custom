@@ -1,0 +1,91 @@
+{
+  "_args": [
+    [
+      "fantasysports@^0.3.0",
+      "/Users/jota/Sites/yahoo/fantasy/ww3"
+    ]
+  ],
+  "_from": "fantasysports@>=0.3.0 <0.4.0",
+  "_id": "fantasysports@0.3.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/fantasysports",
+  "_npmUser": {
+    "email": "matrixhasyou2k4@gmail.com",
+    "name": "jcreamer"
+  },
+  "_npmVersion": "1.4.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "fantasysports",
+    "raw": "fantasysports@^0.3.0",
+    "rawSpec": "^0.3.0",
+    "scope": null,
+    "spec": ">=0.3.0 <0.4.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fantasysports/-/fantasysports-0.3.0.tgz",
+  "_shasum": "089bb8e6d11c7dbf42033da483417e67258d9afb",
+  "_shrinkwrap": null,
+  "_spec": "fantasysports@^0.3.0",
+  "_where": "/Users/jota/Sites/yahoo/fantasy/ww3",
+  "author": {
+    "email": "matrixhasyou2k4@gmail.com",
+    "name": "Jonathan Creamer"
+  },
+  "bugs": {
+    "url": "https://github.com/jcreamer898/fantasy-sports/issues"
+  },
+  "dependencies": {
+    "oauth": "git://github.com/jcreamer898/node-oauth.git",
+    "q": "^1.0.1",
+    "underscore": "^1.6.0"
+  },
+  "description": "A wrapper for the Yahoo Fantasy API for Express.js.",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "^0.11.0",
+    "sinon": "^1.10.3"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "089bb8e6d11c7dbf42033da483417e67258d9afb",
+    "tarball": "https://registry.npmjs.org/fantasysports/-/fantasysports-0.3.0.tgz"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "homepage": "https://github.com/jcreamer898/fantasy-sports",
+  "keywords": [],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jcreamer898/fantasy-sports/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/index",
+  "maintainers": [
+    {
+      "email": "matrixhasyou2k4@gmail.com",
+      "name": "jcreamer"
+    }
+  ],
+  "name": "fantasysports",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jcreamer898/fantasy-sports.git"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "version": "0.3.0"
+}

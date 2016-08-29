@@ -1,0 +1,25 @@
+{
+  "name": "Pickem_Party",
+  "version": "1.0.0",
+  "description": "use Yahoo API to make a nice interface for NFL Pickem",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jayjfadd",
+  "license": "ISC",
+  "homepage": "http://pickem.catomatic.com",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "body-parser": "^1.10.1",
+    "ect": "^0.5.9",
+    "express": "^4.13.4",
+    "express-session": "^1.10.1",
+    "connect-mongodb-session":"~1.1.1",
+    "log": "^1.4.0",
+    "mongoose": "^4.4.12",
+    "request": "^2.72.0",
+    "oauth": "^0.9.11",
+    "xml2js": "^0.1.14"
+  }
+}
